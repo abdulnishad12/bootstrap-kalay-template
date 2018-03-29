@@ -1,0 +1,67 @@
+/* --- Header
+--------------------- */
+
+.section--header {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)
+  ), url(../img/home-bg.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: $white;
+  height: 100vh;
+  padding: 0;
+
+  .row {
+    padding-top: 50%;
+  }
+
+  .column__title,
+  .column__subtitle,
+  .button--header {
+    float: right;
+  }
+
+  .column__subtitle {
+    text-align: right;
+  }
+
+  .column__title,
+  .column__subtitle {
+    margin-bottom: 30px;
+  }
+
+  .column__title {
+    font-size: 32px;
+  }
+
+  .column__subtitle {
+    color: #f0f0f0;
+    font-size: 16px;
+  }
+
+  @media (min-width: 600px) {
+    background: linear-gradient(
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0)
+    ), url(../img/home-bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    .row {
+      padding-top: 20%;
+    }
+
+    .column__title {
+      font-size: 44px;
+    }
+
+    .column__subtitle {
+      font-size: 16px;
+    }
+  }
+}

@@ -1,0 +1,46 @@
+.section--contact {
+
+  .column {
+    margin-bottom: 60px;
+  }
+
+  .form__input,
+  .form__textarea {
+    border: none;
+    border-bottom: 2px solid #f0f0f0;
+  }
+
+  .form__input::placeholder,
+  .form__textarea::placeholder {
+    color: #878787;
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+
+  .form__textarea {
+    margin-bottom: 10px;
+  }
+
+  .button--contact {
+    float: right;
+  }
+
+  .column__subtitle {
+    margin-bottom: 50px;
+  }
+
+  .column__list {
+    padding: 0;
+    margin: 0;
+  }
+
+  .fa {
+    margin-right: 5px;
+  }
+
+  .column__item {
+    color: #878787;
+    list-style-type: none;
+    margin-bottom: 15px;
+  }
+}

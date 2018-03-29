@@ -1,0 +1,17 @@
+/* --- Base
+--------------------- */
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* --- Typography
+--------------------- */
+
+p {
+  color: $gray-light;
+}

@@ -1,0 +1,23 @@
+.section--services {
+  background-color: $gray-background;
+
+  .column {
+    margin-bottom: 40px;
+  }
+
+  .fa {
+    color: $purple;
+    font-size: 62px;
+    margin-bottom: 20px;
+  }
+
+  .column__title {
+    margin-bottom: 15px;
+  }
+
+  @media (min-width: 600px) {
+    .column {
+      margin: 0;
+    }
+  }
+}

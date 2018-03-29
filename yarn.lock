@@ -797,7 +797,7 @@ graceful-fs@~1.2.0:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-1.2.3.tgz#15a4806a57547cb2d2dbf27f42e89a8c3451b364"
 
-gulp-clean-css@^3.9.2:
+gulp-clean-css@*:
   version "3.9.3"
   resolved "https://registry.yarnpkg.com/gulp-clean-css/-/gulp-clean-css-3.9.3.tgz#47bf7ad62f44970f86e4ac4bdeed68ad904e65c5"
   dependencies:
@@ -806,18 +806,18 @@ gulp-clean-css@^3.9.2:
     through2 "2.0.3"
     vinyl-sourcemaps-apply "0.2.1"
 
-gulp-js-minify@^0.0.3:
+gulp-js-minify@*:
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/gulp-js-minify/-/gulp-js-minify-0.0.3.tgz#33c39f87ef766651a53327b0926b8f658d9e3963"
   dependencies:
     gulp-util "~3.0.7"
     through2 "~2.0.1"
 
-gulp-rename@^1.2.2:
+gulp-rename@*:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/gulp-rename/-/gulp-rename-1.2.2.tgz#3ad4428763f05e2764dec1c67d868db275687817"
 
-gulp-sass@^3.1.0:
+gulp-sass@*:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/gulp-sass/-/gulp-sass-3.2.1.tgz#2e3688a96fd8be1c0c01340750c191b2e79fab94"
   dependencies:
@@ -850,7 +850,7 @@ gulp-util@^3.0, gulp-util@^3.0.0, gulp-util@~3.0.7:
     through2 "^2.0.0"
     vinyl "^0.5.0"
 
-gulp@^3.9.1:
+gulp@*:
   version "3.9.1"
   resolved "https://registry.yarnpkg.com/gulp/-/gulp-3.9.1.tgz#571ce45928dd40af6514fc4011866016c13845b4"
   dependencies:

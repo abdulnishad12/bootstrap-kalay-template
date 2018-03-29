@@ -2,7 +2,7 @@ const gulp = require('gulp'),
       gulpCleanCss = require('gulp-clean-css'),
       gulpSass = require('gulp-sass'),
       gulpMinifyJs = require('gulp-js-minify'),
-      gulpRename = requre('gulp-rename');
+      gulpRename = require('gulp-rename');
 
 // Compile scss files
 gulp.task('compile-scss', () => {
